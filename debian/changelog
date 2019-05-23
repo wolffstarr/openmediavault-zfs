@@ -1,3 +1,72 @@
+openmediavault-zfs (4.0.4) stable; urgency=low
+
+  * Add dependencies to work with proxmox kernel
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Wed, 06 Jun 2018 07:01:46 -0500
+
+openmediavault-zfs (4.0.3) stable; urgency=low
+
+  * Add mntent uuid into zfs properties
+  * Update locales
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Tue, 29 May 2018 07:34:25 -0500
+
+openmediavault-zfs (4.0.2-1) stable; urgency=low
+
+  * Update locales
+  * Fix zfs root issue
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Thu, 12 Apr 2018 07:31:56 -0500
+
+openmediavault-zfs (4.0.1-1) stable; urgency=low
+
+  * Adapt to new API.
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Sun, 25 Feb 2018 13:17:54 +0100
+
+openmediavault-zfs (4.0) stable; urgency=low
+
+  * Update for OMV 4.x
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Sat, 23 Sep 2017 12:06:11 -0500
+
+openmediavault-zfs (3.0.19) stable; urgency=low
+
+  * Remove setSize call since it doesn't exist and not needed
+  * Only show unused drives in add or expand pool
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Thu, 18 May 2017 09:33:00 -0500
+
+openmediavault-zfs (3.0.18) stable; urgency=low
+
+  * Fix another rpc bug
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Sat, 06 May 2017 09:30:22 -0500
+
+openmediavault-zfs (3.0.17) stable; urgency=low
+
+  * Fix datamodel name
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Sat, 06 May 2017 09:07:34 -0500
+
+openmediavault-zfs (3.0.16) stable; urgency=low
+
+  * Fix enumerate function
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Thu, 04 May 2017 14:10:31 -0500
+
+openmediavault-zfs (3.0.15) stable; urgency=low
+
+  * Mantis 0001731: Bug in filesystems view.
+
+ -- Volker Theile <volker.theile@openmediavault.org>  Sun, 30 Apr 2017 18:12:45 +0200
+
+openmediavault-zfs (3.0.14) stable; urgency=low
+
+  * Fix for docker legacy mounts
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Tue, 04 Apr 2017 06:20:51 -0500
+
 openmediavault-zfs (3.0.13) stable; urgency=low
 
   * Add missing \OMV\System\Filesystem\IFilesystem::getPredictableDeviceFile
